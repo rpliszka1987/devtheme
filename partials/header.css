@@ -1,0 +1,48 @@
+.site-header {
+  background-color: rgba(255, 255, 255, 0.1);
+  position: fixed;
+  height: 10%;
+  width: 100%;
+  border-bottom-left-radius: 51px;
+  border-bottom-right-radius: 51px;
+}
+
+#sgf-logo {
+  position: absolute;
+  left: 50%;
+  clear: both;
+  width: 50vh;
+  margin-left: -19vh;
+  margin-top: 5vh;
+}
+@media (max-width: 539px) {
+  #sgf-logo {
+    width: 30%;
+    margin-left: -15%;
+  }
+}
+
+#stars {
+  height: 100%;
+  position: absolute;
+  background: #000;
+  width: 100%;
+  top: 0;
+}
+
+#stars canvas {
+  position: absolute;
+  height: 100% !important;
+}
+
+.navigation-top {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+#hero {
+  background-size: cover;
+  background-repeat: none !important;
+  height: 0px;
+  padding-bottom: 40%;
+}
